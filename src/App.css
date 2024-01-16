@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+form{
+  width: 400px;
+  margin: auto;
+}
+form div {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  border: 1px solid gray;
+  padding:  3px;
+  gap: 5px;
+  border-radius: 5px;
+}
